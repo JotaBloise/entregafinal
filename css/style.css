@@ -1,0 +1,170 @@
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Unbounded', cursive;
+font-family: 'Tilt Warp', cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1200px;
+    background-color: #FFB17A;
+}
+
+/*header*/
+
+header{
+    font-size: 20px;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: Medium;
+    background-color: #FFB17A;
+    margin-bottom: 50px;
+}
+.inicio{
+    text-align: start;
+    margin-left: 10px;
+}
+.medio{
+    text-align: center;
+
+} 
+.nosotros{
+    padding: auto;
+    text-align: end;
+    margin-right: 10px;
+}
+/* termina header */
+
+a{
+    text-decoration: none;
+    
+}
+a :visited{
+    color: black
+}
+
+/* Arranca H1 */
+.h1_index{
+    font-family: 'Unbounded', cursive;
+    background-color: #496DDB;
+    display: inline-block;
+    width: 650px;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.h1_index_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1_index_fondo{
+    position: absolute;
+    background-color: #452a72;
+    width: 650px;
+    height: 350px;
+    top: 120px;
+    left: 250px;
+    z-index: -1;
+}
+/* Termina H1 */
+
+/* Arranca main */
+#main_index{
+    margin-bottom: 150px;
+}
+.carousel.slide{
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+}
+.carousel-inner{
+    border: 5px solid white;
+    margin-top: 20px;
+  }
+  /* Termina main*/
+
+  /*Arranca footer*/
+footer{
+    font-size: 10px;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-left: 10px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+/* Termina footer */
+
+/* Comienza sobre nosotros */
+.imagen-nosotros{
+    border: 5px solid white;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+section {
+    display: grid;
+    place-items: center;
+  }
+  
+  .sobre-nosotros-texto {
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+    margin-right: 20px;
+    border: 5px solid white ;
+  }
+/* Celular */
+@media (max-width: 767px) {
+    body{
+      width: 100%;
+    }
+    header{
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    .inicio, .medio, .nosotros {
+      text-align: center;
+      margin: 0;
+    }
+    .h1_index {
+      width: 450px;
+      height: 150px;
+      text-align: center;
+    }
+    .h1_index_fondo {
+      position: absolute;
+      top: 100px;
+      left: 40px;
+      width: 450px;
+      height: 150px;
+    }
+    #main_index{
+      margin-bottom: 100px;
+    }
+    .carousel.slide{
+      width: 400px;
+      height: 250px;
+      margin: 0 auto;
+    }
+    footer{
+      font-size: 8px;
+      justify-content: center;
+      margin: 20px 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .imagen-nosotros{
+      margin: 0;
+    }
+    .sobre-nosotros-texto {
+      margin: 20px 20px;
+    
+    }
+  }
