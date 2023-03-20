@@ -1,0 +1,26 @@
+.h1_index{
+    font-family: 'Unbounded', cursive;
+    background-color: #496DDB;
+    display: inline-block;
+    width: 650px;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.h1_index_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1_index_fondo{
+    position: absolute;
+    background-color: #452a72;
+    width: 650px;
+    height: 350px;
+    top: 120px;
+    left: 250px;
+    z-index: -1;
+}

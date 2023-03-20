@@ -1,0 +1,15 @@
+//Base
+
+@import "./base/variables.scss";
+@import "./base/listas.scss";
+@import "./base/_maps.scss";
+@import "./base/colores.scss";
+
+//Components
+
+  @import "./components/header.scss";
+  @import "./components/main.scss";
+  @import "./components/carousel.scss";
+  @import "./components/footer";
+  @import "./components/main-sobrenosotros.scss";
+  @import "./components/mediaqueries.scss";
