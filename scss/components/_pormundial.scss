@@ -8,28 +8,36 @@
 
 .h1-pormundial{
     @extend %dflex;
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter; 
     display: inline-block;
 }
 
 .alberto-todo{
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .alberto-img{
     height: 400px;
     width: 305px;
-    display: flex;
-    flex-flow: column wrap;
     border: 5px solid white;
 }
-.datos-alberto-div{
+.alberto-img-div{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
+h6{
+    font-family: 'Unbounded', cursive;
+    background-color: white;
+  }
 .datos-alberto{
     height: 250px;
     width: 300px;
@@ -41,13 +49,24 @@
     align-items: center;
     justify-content: center;
     background-color: $bg-ppl;
+    h6{
+        background-color: transparent
+    }
 }
 
 .nacional-text{
     @extend %dflex;
     margin-top: 100px;
-    font-size: 45px;
+    font-size: 60px;
     color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter; 
+}
+.primera-uruguaya{
+    @extend %dflex;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold; 
 }
 
 .nacional-escudo{
@@ -63,3 +82,8 @@
     max-height: 400px;
     max-width: 400px;
 }
+
+.uruguay-text a:hover .h1-pormundial {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }

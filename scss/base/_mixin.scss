@@ -1,5 +1,10 @@
 @mixin titulos ($titulos-ffamily, $titulos-fsize){
     font-family: $titulos-ffamily;
     font-size: $titulos-fsize;
-
 }
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  

@@ -1,7 +1,8 @@
 /* 
 font-family: 'Mulish', sans-serif;
-font-family: 'Unbounded', cursive;
+font-family: 'Oswald', sans-serif;
 font-family: 'Tilt Warp', cursive;
+font-family: 'Unbounded', cursive;
 */
 
 //Base
@@ -17,10 +18,11 @@ font-family: 'Tilt Warp', cursive;
   @import "./components/body";
   @import "./components/header";
   @import "./components/main";
+  @import "./components/nav";
   @import "./components/carousel";
-  @import "./components/footer";
   @import "./components/pormundial";
   @import "./components/nacional-equipo";
   @import "./components/estadisticas";
   @import "./components/main-sobrenosotros";
+  @import "./components/footer";
   @import "./components/mediaqueries";

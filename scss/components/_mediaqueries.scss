@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 576px) {
     body{
       width: 100%;
     }
@@ -6,21 +6,11 @@
       font-size: 16px;
       margin-bottom: 30px;
     }
-    .inicio, .medio, .nosotros {
-      text-align: center;
-      margin: 0;
-    }
     .h1_index {
       width: 450px;
       height: 150px;
       text-align: center;
-    }
-    .h1_index_fondo {
-      position: absolute;
-      top: 100px;
-      left: 40px;
-      width: 450px;
-      height: 150px;
+      margin-top: 100px;
     }
     #main_index{
       margin-bottom: 100px;
@@ -30,6 +20,63 @@
       height: 250px;
       margin: 0 auto;
     }
+    .uruguay-text {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .h1-pormundial {
+      font-size: 30px;
+    }
+    .grid-container3 {
+      grid-template-columns: 1fr 1fr;
+      max-width: fit-content;
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+  
+    .alberto-img {
+      height: 250px;
+      width: 250px;
+    }
+  
+    .alberto-img-div {
+      align-items: center;
+    }
+  
+    .datos-alberto-div {
+      height: 250px;
+      width: 250px;
+    }
+  
+    .nacional-text {
+      margin-top: 50px;
+      font-size: 30px;
+    }
+  
+    .primera-uruguaya {
+      font-size: 20px;
+    }
+  
+    .nacional-escudo {
+      margin-top: 30px;
+    }
+  
+    .nacional-img {
+      max-height: 300px;
+      max-width: 300px;
+    }
+    .sobre-nosotros {
+      flex-direction: column;
+    }
+  
+    .sobre-nosotros-texto {
+      margin: 20px;
+      max-width: none;
+    }
+    .imagen-nosotros{
+      max-width: 100vw;
+    }
     footer{
       font-size: 8px;
       justify-content: center;
@@ -38,6 +85,12 @@
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
+    }
+    .footer-sm{
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin-top: auto;
     }
     .imagen-nosotros{
       margin: 0;

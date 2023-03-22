@@ -1,0 +1,33 @@
+.nav-item {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav-item:hover~.nav-item {
+    transform: translateX(10px);
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .inicio-nav, .medio-nav, .nosotros-nav {
+    display: flex;
+  }
+  
+  .medio-nav {
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .nosotros-nav {
+    justify-content: flex-end;
+  }
+  
+  

@@ -1,16 +1,24 @@
-.imagen-nosotros{
-    border: 5px solid white;
-    margin-left: 50px;
-    margin-bottom: 100px;
+.sobre-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
-section {
-    display: grid;
-    place-items: center;
-  }
-  
-  .sobre-nosotros-texto {
-    font-family: 'Tilt Warp', cursive;
-    text-align: center;
-    margin-right: 20px;
-    border: 5px solid white ;
-  }
+
+.imagen-nosotros {
+  border: 5px solid white;
+  max-width: 100%;
+
+}
+
+.sobre-nosotros-texto {
+  font-family: 'Tilt Warp', cursive;
+  text-align: center;
+  margin-left: 20px;
+  border: 5px solid white;
+  max-width: 600px;
+}
+
+.h1-responsive{
+  font-family: 'Oswald', sans-serif;
+}
