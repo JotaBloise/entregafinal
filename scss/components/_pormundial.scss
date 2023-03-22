@@ -1,0 +1,65 @@
+.uruguay-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-pormundial{
+    @extend %dflex;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.alberto-todo{
+    margin-top: 50px;
+}
+
+.alberto-img{
+    height: 400px;
+    width: 305px;
+    display: flex;
+    flex-flow: column wrap;
+    border: 5px solid white;
+}
+.datos-alberto-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.datos-alberto{
+    height: 250px;
+    width: 300px;
+    font-family: 'Unbounded', cursive;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-ppl;
+}
+
+.nacional-text{
+    @extend %dflex;
+    margin-top: 100px;
+    font-size: 45px;
+    color: black;
+}
+
+.nacional-escudo{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nacional-img{
+    max-height: 400px;
+    max-width: 400px;
+}

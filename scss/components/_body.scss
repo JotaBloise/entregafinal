@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: $bg-ppl;
+}
+
+.body-azul{
+    background-color: $sd-clr;
+}
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.border-img{
+    border: 5px solid white;
+}

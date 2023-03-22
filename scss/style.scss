@@ -1,15 +1,26 @@
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Unbounded', cursive;
+font-family: 'Tilt Warp', cursive;
+*/
+
 //Base
 
-@import "./base/variables.scss";
-@import "./base/listas.scss";
-@import "./base/_maps.scss";
-@import "./base/colores.scss";
+@import "./base/variables";
+@import "./base/listas";
+@import "./base/_maps";
+@import "./base/colores";
+@import "./base/extend";
+@import "./base/mixin";
 
 //Components
-
-  @import "./components/header.scss";
-  @import "./components/main.scss";
-  @import "./components/carousel.scss";
+  @import "./components/body";
+  @import "./components/header";
+  @import "./components/main";
+  @import "./components/carousel";
   @import "./components/footer";
-  @import "./components/main-sobrenosotros.scss";
-  @import "./components/mediaqueries.scss";
+  @import "./components/pormundial";
+  @import "./components/nacional-equipo";
+  @import "./components/estadisticas";
+  @import "./components/main-sobrenosotros";
+  @import "./components/mediaqueries";

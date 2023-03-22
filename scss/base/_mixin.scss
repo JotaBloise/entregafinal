@@ -1,0 +1,5 @@
+@mixin titulos ($titulos-ffamily, $titulos-fsize){
+    font-family: $titulos-ffamily;
+    font-size: $titulos-fsize;
+
+}

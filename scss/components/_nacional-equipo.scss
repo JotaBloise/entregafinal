@@ -1,0 +1,13 @@
+.row{
+    margin-top: 50px;
+}
+
+.col-3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Unbounded', cursive;
+    color: black;
+}
