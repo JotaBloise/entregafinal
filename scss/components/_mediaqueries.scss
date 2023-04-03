@@ -1,7 +1,4 @@
 @media (max-width: 576px) {
-    body{
-      width: 100%;
-    }
     header{
       font-size: 16px;
       margin-bottom: 30px;
@@ -99,4 +96,17 @@
       margin: 20px 20px;
     
     }
+      .row-media{
+    width: 576px;
+  }
+
+  .medio-nav{
+    flex-direction: column;
+  }
+  .navflex{
+    align-items: start;
+  }
+  .estadistica-img{
+    width: 100%;
+  }
   }
